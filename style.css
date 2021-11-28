@@ -23,6 +23,10 @@ nav img {
     width: 320px;
 }
 
+nav .icons {
+    display: none;
+}
+
 .nav-links {
     flex: 1;
     text-align: right;
@@ -76,6 +80,8 @@ nav img {
     font-family: poppins;
 }
 
+
+
 @media(max-width: 700px){
     .welcome h1{
         font-size: 20px;
@@ -96,12 +102,19 @@ nav img {
         text-align: left;
         z-index: 2;
     }
+
+    nav .icons {
+        display: block;
+        color: white;
+        margin: 10px;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+
+    }
 }
 
-.header .icons {
-    height: 5px;
-    width: 5px;
-}
+
 
 
 
