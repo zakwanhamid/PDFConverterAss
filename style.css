@@ -70,20 +70,49 @@ nav img {
 }
 
 .welcome p{
-    margin: 10px 0 40px;
+    margin: 10px 0 25px;
     font-size: 14px;
     font-family: poppins;
 }
 
 /* style for instructions */
 
-.instr-row {
+.instr{
     color: white;
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
+    font-family: poppins;
+}
+
+.instr-row {
+    display: flex;
+    justify-content: space-between;
 }
 
 .instr-row h3 {
     font-size: 25px;
 }
+
+.instr-row p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.instr-col {
+    flex-basis: 30%;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.instr-col:hover {
+    box-shadow: 0 0 20px 0px;
+}
+
+
