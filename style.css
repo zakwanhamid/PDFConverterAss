@@ -59,12 +59,10 @@ nav img {
 .welcome{
     width: 90%;
     color: white;
-    position: relative;
+    margin: auto;
     top: 23%;
     left: 50%;
-    transform: translate(-50%,-50%);
     text-align: center;
-    display: block;
 }
 
 .welcome h1{
@@ -80,5 +78,12 @@ nav img {
 /* style for instructions */
 
 .instr-row {
-    
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.instr-row h3 {
+    font-size: 25px;
 }
