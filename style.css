@@ -151,4 +151,19 @@ nav img {
     background: grey;
 }
 
+/* ---------- file download ---------- */
+
+.download{
+    font-family: poppins;
+    margin: 2em;
+    text-align: center;
+    color: white;
+}
+
+.download-title{
+    margin:4em 2em 1em;
+    font-size: 20px;
+    font-weight:500;
+}
+
 
