@@ -152,7 +152,40 @@ nav img {
 } */
 
 /* ------ upload drag ------ */
+.upload-drag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #fff;
+    height: 200px;
+    width: 600px;
+    margin: auto;
+    border-radius: 20px;
+    flex-direction: column;
+}
 
+.upload-drag header{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.upload-drag span{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 15px 0;
+}
+
+.upload-drag button{
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
 
 
 
