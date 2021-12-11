@@ -184,7 +184,10 @@ nav img {
     background-color: white;
     border-radius: 5px;
     cursor: pointer;
+}
 
+.icon {
+    font-size: 30px;
 }
 
 
