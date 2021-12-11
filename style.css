@@ -2,16 +2,16 @@
     margin: 0;
     padding: 0;
 }
-
-.overall {
+/* ------style for screen1------ */
+.screen1 {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0)), url(image/bg7.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0)), url(image/bg7.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
 }
-
+/* -------style for nav------ */
 nav {
     display: flex;
     padding: 2% 6%;
@@ -56,6 +56,7 @@ nav img {
     width: 100%;
 }
 
+/* ------style for welcome text------ */
 .welcome{
     width: 90%;
     color: white;
@@ -75,8 +76,7 @@ nav img {
     font-family: poppins;
 }
 
-/* style for instructions */
-
+/* -----style for instructions------ */
 .instr{
     color: white;
     width: 80%;
@@ -97,7 +97,7 @@ nav img {
 .instr-row p {
     font-size: 14px;
     font-weight: 300;
-    line-height: 22px;
+    line-height: 20px;
     padding: 10px;
 }
 
@@ -115,19 +115,16 @@ nav img {
     box-shadow: 0 0 20px 0px;
 }
 
-/* ----------file upload---------- */
-
+/* ----------style for file upload---------- */
 .upload {
     text-align: center;
-    margin: 2em;
 }
 
 .upload-title {
-    padding: 0 2em 1em 2em;
+    padding: 0 2em 0 2em;
     color: white;
     font-family: poppins;
     font-size: 19px;
-
 }
 
 .upload-box {
@@ -151,7 +148,7 @@ nav img {
     background: grey;
 }
 
-/* ---------- file download ---------- */
+/* ---------- style for file download ---------- */
 
 .download{
     font-family: poppins;
@@ -161,9 +158,87 @@ nav img {
 }
 
 .download-title{
-    margin:4em 2em 1em;
+    margin:1em 2em 1em;
     font-size: 20px;
     font-weight:500;
 }
+
+
+
+/* ------style for screen2------ */
+.screen2{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(image/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.screen2-title{
+    font-size: 25px;
+    color: white;
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+    width: 90%;
+}
+
+.members{
+    color: white;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: poppins;
+}
+
+.members-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.members-row p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.members-col {
+    flex-basis: 20%;
+    background-color: rgba(0,0,0,0.4);
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.members-col:hover {
+    box-shadow: 0 0 20px 0px;
+}
+
+.members-col h1{
+    padding: 15px;
+    margin: auto;
+}
+
+.members-col h3{
+    padding: 20px 0 15px;
+}
+
+.members-col p{
+    font-size: 20px;
+}
+
+.members-col a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.icon a{
+    padding: 10px;
+}
+
+
+
 
 
