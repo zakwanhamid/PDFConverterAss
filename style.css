@@ -117,7 +117,7 @@ nav img {
 
 /* ----------file upload---------- */
 
-/* .upload {
+.upload {
     text-align: center;
     margin: 2em;
 }
@@ -149,13 +149,7 @@ nav img {
 
 ::-webkit-file-upload-button:hover {
     background: grey;
-} */
-
-/* ------ upload drag ------ */
-
-
-
-
+} 
 
 /* ---------- file download ---------- */
 
