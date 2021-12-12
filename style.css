@@ -18,7 +18,7 @@ html {
 /* -------style for nav------ */
 nav {
     display: flex;
-    padding: 2% 6%;
+    padding: 2% 6% 0;
     justify-content: space-between;
     align-items: center;
 }
@@ -42,8 +42,9 @@ nav img {
 .nav-links ul li a{
     color: white;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 25px;
     font-family: poppins;
+    font-weight: 500;
 }
 
 .nav-links ul li::after {
@@ -75,8 +76,8 @@ nav img {
 }
 
 .welcome p{
-    margin: 10px 0 25px;
-    font-size: 14px;
+    margin: 10px 0 50px;
+    font-size: 21px;
     font-family: poppins;
 }
 
