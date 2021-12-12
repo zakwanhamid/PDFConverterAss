@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
 }
+/* ------style for smooth scroll behavior------ */
+html {
+    scroll-behavior:smooth;
+}
 /* ------style for screen1------ */
-.screen1 {
+#screen1 {
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0)), url(image/bg7.jpeg);
@@ -166,7 +170,7 @@ nav img {
 
 
 /* ------style for screen2------ */
-.screen2{
+#screen2{
     min-height: 100vh;
     width: 100%;
     background-image: url(image/bg3.jpg);
@@ -184,6 +188,7 @@ nav img {
     width: 90%;
 }
 
+/* ------ style for members profile ------ */
 .members{
     color: white;
     width: 80%;
