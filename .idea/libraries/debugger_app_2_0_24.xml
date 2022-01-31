@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="debugger-app-2.0.24">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../ASSIGNMENT CAT/AssignmentCAT/src/libaries/debugger-app-2.0.24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../ASSIGNMENT CAT/AssignmentCAT/src/libaries/pdfbox-app-2.0.24.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

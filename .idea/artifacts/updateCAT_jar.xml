@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="updateCAT:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/updateCAT_jar</output-path>
+    <root id="archive" name="updateCAT.jar">
+      <element id="module-output" name="updateCAT" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../ASSIGNMENT CAT/AssignmentCAT/src/libaries/debugger-app-2.0.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../ASSIGNMENT CAT/AssignmentCAT/src/libaries/pdfbox-app-2.0.24.jar" path-in-jar="/" />
+      <element id="library" level="project" name="debugger-app-2.0.24" />
+    </root>
+  </artifact>
+</component>
